@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khaled Mano - Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+
+    <nav id="navbar">
+      <a class="nav-logo" href="#">Khaled<span>.</span>Mano</a>
+      <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Portfolio</a></li>
+        <li><a href="#social">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="hero">
+      <div class="hero-left">
+        <p class="hero-label">Fashion Model</p>
+        <h1 class="hero-name">
+          KHALED
+          <span class="hero-name-italic">Mano</span>
+        </h1>
+        <p class="hero-tagline">
+          Turning fabric into emotion.<br />
+          Every frame tells a story.
+        </p>
+        <div class="hero-cta">
+          <a href="#gallery" class="btn-primary">View Portfolio</a>
+          <span class="scroll-hint">
+            <span class="scroll-line"></span>
+            Scroll
+          </span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-video-container">
+          <video
+            class="hero-video"
+            id="heroVideo"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="auto"
+          >
+            <source
+              src="./images/video_2026-05-28_18-51-12.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <div class="hero-overlay"></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-left">
+        <p class="section-index">01 — About</p>
+        <h2 class="section-title">The Face<br />Behind <em>the Lens</em></h2>
+
+        <div class="stats-grid">
+          <div class="stat-box">
+            <div class="stat-value">2+ Years</div>
+            <div class="stat-label">Experience</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value">60+</div>
+            <div class="stat-label">Photo Shoots</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value">7</div>
+            <div class="stat-label">Photographers</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value">3</div>
+            <div class="stat-label">Brands</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-right">
+        <p class="about-bio">
+          Based in Cairo, <strong>Khaled Mano</strong> is a fashion and
+          editorial model known for a distinctive aesthetic that blends raw
+          emotion with refined visual storytelling. With a background in
+          contemporary style and a passion for expressive photography, every
+          shoot becomes a canvas.
+        </p>
+        <p class="about-bio">
+          Collaborating with leading photographers, designers, and brands across
+          the region, Khaled brings a unique energy to every frame, part
+          character, part craft, entirely unforgettable.
+        </p>
+
+        <div class="skills-row">
+          <span class="skill-tag">Editorial</span>
+          <span class="skill-tag">Fashion</span>
+          <span class="skill-tag">Streetwear</span>
+          <span class="skill-tag">E-Commerce</span>
+          <span class="skill-tag">Runway</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="gallery-header">
+        <div>
+          <p class="section-index">02 — Portfolio</p>
+          <h2 class="section-title">Recent <em>Photos</em></h2>
+        </div>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span class="gp-label"
+              ><img
+                class="w-100"
+                src="./images/WhatsApp Image 2026-04-04 at 18.41.98.jpeg"
+                alt="portfolio-image"
+            /></span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-text">2026</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span class="gp-label"
+              ><img
+                class="w-100"
+                src="./images/WhatsApp Image 2026-04-04 at 18.41.39.jpeg"
+                alt="portfolio-image"
+            /></span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-text">2026</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span class="gp-label"
+              ><img
+                class="w-100"
+                src="./images/WhatsApp Image 2026-04-04 at 18.41.40.jpeg"
+                alt="portfolio-image"
+            /></span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-text">2026</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span class="gp-label"
+              ><img
+                class="w-100"
+                src="./images/WhatsApp Image 2026-04-04 at 18.41.47.jpeg"
+                alt="portfolio-image"
+            /></span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-text">2026</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span class="gp-label"
+              ><img
+                class="w-100"
+                src="./images/WhatsApp Image 2026-04-04 at 18.41.50.jpeg"
+                alt="portfolio-image"
+            /></span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-text">2026</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span class="gp-label"
+              ><img
+                class="w-100"
+                src="./images/WhatsApp Image 2026-04-04 at 18.41.38.jpeg"
+                alt="portfolio-image"
+            /></span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-text">2026</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span class="gp-label"
+              ><img
+                class="w-100"
+                src="./images/photo_2026-05-28_19-48-39.jpg"
+                alt="portfolio-image"
+            /></span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-text">2026</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span class="gp-label"
+              ><img
+                class="w-100"
+                src="./images/photo_2026-05-28_19-47-14.jpg"
+                alt="portfolio-image"
+            /></span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-text">2026</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span class="gp-label"
+              ><img
+                class="w-100"
+                src="./images/photo_2026-05-28_19-48-43.jpg"
+                alt="portfolio-image"
+            /></span>
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-text">2026</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="social">
+      <div class="social-left">
+        <p class="section-index">03 — Contact</p>
+        <h2 class="section-title">Follow the<br /><em>Journey</em></h2>
+        <p class="social-desc">
+          Stay updated with the latest shoots, collaborations, and behind the
+          scenes moments across platforms.
+        </p>
+      </div>
+
+      <div class="social-grid">
+        <a
+          href="https://www.instagram.com/khaaled_mano?igsh=MTY1ajdmdTRpZ2p4bA=="
+          class="social-card"
+        >
+          <span class="social-icon">📸</span>
+          <span class="social-platform">Instagram</span>
+          <span class="social-handle">@Khaaled_mano</span>
+          <span class="social-arrow">↗</span>
+        </a>
+        <a
+          href="https://www.tiktok.com/@khaaled_mano?_r=1&_t=ZS-95VWJpxaZZB"
+          class="social-card"
+        >
+          <span class="social-icon">🎵</span>
+          <span class="social-platform">TikTok</span>
+          <span class="social-handle">@khaaled_mano</span>
+          <span class="social-arrow">↗</span>
+        </a>
+        <a href="https://wa.me/201152672968" class="social-card">
+          <span class="social-icon">💬</span>
+          <span class="social-platform">WhatsApp</span>
+          <span class="social-handle">Book a shoot</span>
+          <span class="social-arrow">↗</span>
+        </a>
+        <a href="mailto:khalledmano@gmail.com" class="social-card">
+          <span class="social-icon">✉️</span>
+          <span class="social-platform">Email</span>
+          <span class="social-handle">Business inquiries</span>
+          <span class="social-arrow">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <span class="footer-logo">KHALED<span>.</span>MANO</span>
+      <a href="#hero" class="footer-top">↑ Back to Top</a>
+    </footer>
+  </body>
+</html>
